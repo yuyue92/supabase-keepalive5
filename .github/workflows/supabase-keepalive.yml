@@ -3,7 +3,7 @@ name: Supabase Keep Alive
 on:
   schedule:
     # 每 3 天执行一次，UTC 时间 03:00（避免刚好卡在 7 天边界上出问题）
-    - cron: '10 3 */2 * *'
+    - cron: '20 3 */2 * *'
   workflow_dispatch: {}  # 允许手动触发测试
 
 jobs:
